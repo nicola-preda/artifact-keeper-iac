@@ -1,0 +1,15 @@
+charts/artifact-keeper/templates/networkpolicy.yaml
+  h_206b40f42abaf2 253-257,291-295,336-340,379-383,421-425
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "9c38009dd41dabdaeb7d71b6acef4b2dedbda606",
+  "prompts": {},
+  "humans": {
+    "h_206b40f42abaf2": {
+      "author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
