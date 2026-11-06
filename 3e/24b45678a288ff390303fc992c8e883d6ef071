@@ -20,6 +20,20 @@ charts/artifact-keeper/templates/scan-worker-deployment.yaml
       "human_author": "Nicola Preda <nicola.preda@proton.ch>"
     }
   },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 124,
+    "ai_accepted": 124,
+    "git_diff_deleted_lines": 1,
+    "git_diff_added_lines": 124,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 124,
+        "ai_accepted": 124
+      }
+    }
+  },
   "token_usage": {
     "carried": {
       "total": {
@@ -37,6 +51,10 @@ charts/artifact-keeper/templates/scan-worker-deployment.yaml
         }
       }
     }
+  },
+  "activity": {
+    "added_sloc": 86,
+    "checkpoints": 1
   },
   "proton_build": "1.7.6-proton.8"
 }
