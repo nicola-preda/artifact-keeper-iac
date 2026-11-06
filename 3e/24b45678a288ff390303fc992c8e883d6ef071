@@ -1,0 +1,42 @@
+charts/artifact-keeper/tests/test_render_scan_worker.py
+  s_91241db92deb5d::t_e3fb04202f2ff4 1-111
+charts/artifact-keeper/templates/_helpers.tpl
+  s_91241db92deb5d::t_cf3b020cae1093 1371-1380,1382
+charts/artifact-keeper/templates/scan-worker-deployment.yaml
+  s_91241db92deb5d::t_e817748997fdf4 127-128
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "3e24b45678a288ff390303fc992c8e883d6ef071",
+  "prompts": {},
+  "sessions": {
+    "s_91241db92deb5d": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2922876e-410c-4c46-b7ea-c707d046fd52",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "token_usage": {
+    "carried": {
+      "total": {
+        "input_tokens": 336,
+        "output_tokens": 64591,
+        "cache_creation_input_tokens": 436749,
+        "cache_read_input_tokens": 16184743
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 336,
+          "output_tokens": 64591,
+          "cache_creation_input_tokens": 436749,
+          "cache_read_input_tokens": 16184743
+        }
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
