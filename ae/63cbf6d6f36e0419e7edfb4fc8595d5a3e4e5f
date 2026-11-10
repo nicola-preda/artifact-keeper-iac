@@ -1,0 +1,59 @@
+monitoring/grafana-dashboard.json
+  s_7295de5a5caaa6::t_d8fb5d68ec99a8 806,842,878,914
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "ae63cbf6d6f36e0419e7edfb4fc8595d5a3e4e5f",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "token_usage": {
+    "attributable": {
+      "total": {
+        "input_tokens": 74,
+        "output_tokens": 19876,
+        "cache_creation_input_tokens": 1846290,
+        "cache_read_input_tokens": 25880950
+      },
+      "by_tool_model": {
+        "claude::claude-opus-5-5": {
+          "input_tokens": 74,
+          "output_tokens": 19876,
+          "cache_creation_input_tokens": 1846290,
+          "cache_read_input_tokens": 25880950
+        }
+      },
+      "tool_uses": {
+        "agent": 10,
+        "askuserquestion": 1,
+        "bash": 666,
+        "edit": 4,
+        "read": 1,
+        "sendmessage": 1,
+        "skill": 2,
+        "taskstop": 17,
+        "toolsearch": 2,
+        "workflow": 8,
+        "write": 4
+      }
+    },
+    "by_prompt": {
+      "s_7295de5a5caaa6": {
+        "input_tokens": 74,
+        "output_tokens": 19876,
+        "cache_creation_input_tokens": 1846290,
+        "cache_read_input_tokens": 25880950
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
