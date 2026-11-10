@@ -1,0 +1,58 @@
+.github/workflows/helm-ci.yml
+  s_91241db92deb5d::t_eed233e0207150 207-208
+charts/artifact-keeper/Chart.yaml
+  s_91241db92deb5d::t_ce26d3ad67f1a2 13
+charts/artifact-keeper/ci/test-values.yaml
+  s_91241db92deb5d::t_847cefc9da1b7c 47-63
+charts/artifact-keeper/templates/_helpers.tpl
+  s_91241db92deb5d::t_f697e30601ffd0 114-121,1328-1607
+charts/artifact-keeper/templates/backend-deployment.yaml
+  s_91241db92deb5d::t_380a0b6e884900 197-201,203-204
+charts/artifact-keeper/templates/networkpolicy.yaml
+  s_91241db92deb5d::t_6a91c2ff838ba1 253-257,291-295,336-340,388-392,430-434
+charts/artifact-keeper/templates/servicemonitor.yaml
+  s_91241db92deb5d::t_1338c91a5bf28a 37-59
+charts/artifact-keeper/tests/test_render_scan_worker.py
+  s_91241db92deb5d::t_f66d205d8c3d50 1-111
+charts/artifact-keeper/values-scan-worker.yaml
+  s_7295de5a5caaa6::t_4cfa7ef6eb62bb 1-24
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "e7df92dfe63a03325ce364cc042139313635446b",
+  "prompts": {},
+  "sessions": {
+    "s_7295de5a5caaa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c56cd63b-ec7b-4cb0-bc81-e8eb3a40f352",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    },
+    "s_91241db92deb5d": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2922876e-410c-4c46-b7ea-c707d046fd52",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 254,
+    "ai_additions": 498,
+    "ai_accepted": 498,
+    "git_diff_deleted_lines": 259,
+    "git_diff_added_lines": 752,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 498,
+        "ai_accepted": 498
+      }
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
