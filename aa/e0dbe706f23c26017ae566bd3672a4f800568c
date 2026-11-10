@@ -1,0 +1,34 @@
+.github/workflows/helm-ci.yml
+  s_91241db92deb5d::t_ef93ad3ca41388 207-208
+charts/artifact-keeper/Chart.yaml
+  s_91241db92deb5d::t_3b07442b08859f 13
+charts/artifact-keeper/ci/test-values.yaml
+  s_91241db92deb5d::t_2e4310e26d7654 47-63
+charts/artifact-keeper/templates/_helpers.tpl
+  s_91241db92deb5d::t_daf91d51a5fbf9 114-121,1328-1607
+charts/artifact-keeper/templates/backend-deployment.yaml
+  s_91241db92deb5d::t_3f10721e46231c 197-201,203-204
+charts/artifact-keeper/templates/networkpolicy.yaml
+  s_91241db92deb5d::t_9967fa5a14b1fd 253-257,291-295,336-340,388-392,430-434
+charts/artifact-keeper/templates/servicemonitor.yaml
+  s_91241db92deb5d::t_3192c4dc8d5d3b 37-59
+charts/artifact-keeper/tests/test_render_scan_worker.py
+  s_91241db92deb5d::t_285deffe04aafa 1-111
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "aae0dbe706f23c26017ae566bd3672a4f800568c",
+  "prompts": {},
+  "sessions": {
+    "s_91241db92deb5d": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2922876e-410c-4c46-b7ea-c707d046fd52",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Nicola Preda <nicola.preda@proton.ch>"
+    }
+  },
+  "proton_build": "1.7.6-proton.8"
+}
