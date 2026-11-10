@@ -30,5 +30,19 @@ charts/artifact-keeper/tests/test_render_scan_worker.py
       "human_author": "Nicola Preda <nicola.preda@proton.ch>"
     }
   },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 281,
+    "ai_additions": 474,
+    "ai_accepted": 474,
+    "git_diff_deleted_lines": 259,
+    "git_diff_added_lines": 755,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 474,
+        "ai_accepted": 474
+      }
+    }
+  },
   "proton_build": "1.7.6-proton.8"
 }
