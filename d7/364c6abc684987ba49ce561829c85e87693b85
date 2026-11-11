@@ -24,6 +24,20 @@ charts/artifact-keeper/values.yaml
       "human_author": "Nicola Preda <nicola.preda@proton.ch>"
     }
   },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 19,
+    "ai_accepted": 19,
+    "git_diff_deleted_lines": 19,
+    "git_diff_added_lines": 19,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 19,
+        "ai_accepted": 19
+      }
+    }
+  },
   "token_usage": {
     "attributable": {
       "total": {
