@@ -28,6 +28,20 @@ charts/artifact-keeper/values.yaml
       "human_author": "Nicola Preda <101360330+nicola-preda@users.noreply.github.com>"
     }
   },
+  "commit_stats": {
+    "human_additions": 0,
+    "unknown_additions": 0,
+    "ai_additions": 223,
+    "ai_accepted": 223,
+    "git_diff_deleted_lines": 16,
+    "git_diff_added_lines": 223,
+    "tool_model_breakdown": {
+      "claude::claude-opus-5-5": {
+        "ai_additions": 223,
+        "ai_accepted": 223
+      }
+    }
+  },
   "token_usage": {
     "carried": {
       "total": {
@@ -45,6 +59,11 @@ charts/artifact-keeper/values.yaml
         }
       }
     }
+  },
+  "activity": {
+    "added_sloc": 148,
+    "checkpoints": 2,
+    "span_seconds": 55
   },
   "proton_build": "1.7.6-proton.8"
 }
